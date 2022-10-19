@@ -4,9 +4,9 @@
 // This program calculates the area of a triangle
 using System;
 
-class Program 
+class Program
 {
-    public static void Main (string[] args) 
+    public static void Main(string[] args)
     {
         // This function accepts user input
         int baseOfTriangle;
@@ -21,8 +21,7 @@ class Program
         Console.Write("Enter the height (cm): ");
         height = Convert.ToInt32(Console.ReadLine());
 
-        area = (baseOfTriangle * height) / 2;
-        
+        area = (baseOfTriangle * height) / 2;        
         Console.WriteLine("");
         Console.WriteLine("The area is: " + area + " cm². ");
   }
